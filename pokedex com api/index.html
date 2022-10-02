@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon" href="img/favicon-16x16.png"type="image/x-icon"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Pokedex</title>
+  </head>
+  <body>
+    <main>
+
+      <img   id="pokemonImg" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/6.gif" alt="pokemon" class="pokemon_image">
+
+
+<h1 class="pokemon_data">
+  <span id="pokemonID" class="pokemon_number">6-</span>
+  <span id="pokemonName" class="pokemon_name">Charizard  </span>
+</h1>
+
+<form class="form" >
+  <input tabindex="1" type="search "class="input_seach" placeholder="Nome ou Numero" required>
+</form>
+<div class="buttons">
+  <button  id="btnPrev" tabindex="2" class="button btn-prev">&#60 Prev</button>
+  <button id="btnNext" tabindex="3" class="button btn-next">Next &#62</button>
+</div>
+
+      <img src="img/pokedex.png" alt="pokedex" class="pokedex" />
+    </main>
+  </body>
+</html>
