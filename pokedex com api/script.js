@@ -1,3 +1,6 @@
+//iife fechando o escopo do script js escondendo as funçoes  e auto executando ele
+(() => {
+
 const url = 'https://pokeapi.co/api/v2/pokemon/'
 const form = document.querySelector('.form')
 const input = document.querySelector('.input_seach')
@@ -77,3 +80,5 @@ btnNext.addEventListener('click', () => {
 })
 
 renderPokemon(searchPokemon)
+  
+  })()
