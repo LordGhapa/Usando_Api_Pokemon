@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Pokedex criada usando a poke api https://pokeapi.co/ possui 905 Pokemon's  c
 
-- [Acesse o projeto finalizado, online](usando-api-pokemon.vercel.app)
+- [Acesse o projeto finalizado, online](https://usando-api-pokemon.vercel.app/)
 
 
 ## :memo: Licença
